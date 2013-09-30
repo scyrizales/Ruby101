@@ -1,0 +1,15 @@
+<html>
+	<head>
+		<title>Inicio</title>
+	</head>
+	<body>
+		<h1>Calcular Interes</h1>
+		<form action="/calculate" method="post">
+			<p>Dinero Inicial: <input type="number" name="money" /></p>
+			<p>Interes: <input type="number" name="interest" /></p>
+			<p>Tiempo: <input type="number" name="time" /></p>
+			<p><button type="submit">Calcular</button></p>
+			<p>El nuevo monto es: <%= @monto %> </p>
+		</form>
+	</body>
+</html>
